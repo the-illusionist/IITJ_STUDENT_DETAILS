@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9fe"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+ 
+    <include layout="@layout/actionbar_layout" />
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+   <TextView
+           android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_marginTop="20dp"
+        android:text="Indian Institute of Technology, Jodhpur"
+        android:textColor="#ff29549f"
+        
+        android:textStyle="bold" />  
+
+   <ScrollView
+        android:id="@+id/scroller1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        >
+       
+      
+       
+       <TextView
+           android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:padding="15dip"
+        
+        android:text="IIT Jodhpur is located in Jodhpur, Rajasthan. The nearest railway station is just 11.6 kms from the residential complex of IITJ and the airport is 7.2 kms. The distance between Academic Complex and IIT J Residential Complex is 11.4 km. 
+\n\n
+History 
+\n\n
+IIT Jodhpur is one of the eight new Indian Institutes of Technology (IITs) established by the Ministry of Human Resource Development, Government of India under The Institutes of Technology (Amendment) Act, 2011 which declares these eight IITs as well as the conversion of Institute of Technology, Banaras Hindu University to IIT. The Act was passed in the Lok Sabha on 24 March 2011 and by the Rajya Sabha on 30 April 2012. 
+\n
+Campus
+\n\n
+The major facilities are:
+\n * Computer centre running on a gigabit LAN with 1Gbps internet bandwidth
+\n * Central library with 5000 books and major magazines
+\n * Residential area for the students
+\n * Health centre in the residential campus
+\n * Banks and ATMs in the campus
+\n * Canteen providing quality food
+\n * Visitor’s hostel providing accommodation facilities for the visitors and parents
+\n * Transport services including institute buses running between the Residential and Academic area at regular intervals
+\n * Shops catering all the various needs of the students, like stationary, general stores, medical stores, computer accessories, electrical hardware, bakery, etc.
+\n\n Departments
+\n * Computer Science and Engineering
+\n * Electrical Engineering
+\n * Mechanical Engineering
+\n * Systems Science
+\n * Biologically Inspired Systems Science
+\n\n
+Placement Information
+\n\n
+The students’ placement cell provides internship opportunities and placements for the students. The placement cell prepares a list of potential recruiters and sends them to the companies. The interested companies get in touch with the institute and come for placements. 
+\n
+Student Activities 
+\n
+\n The various student activities cells are:
+\n * ARA: (Academic and Research Affairs) is the council which acts as a platform for all activities regarding Research and Academics.
+\n * NUTS: (Nurturing Understanding Technology and Science) has various clubs under the council which encourages new innovations and ideas along with development of new technologies in all the fields of science and technology .
+\n * MAD: (Media, Arts and Design) has various clubs under the council which deals with all the creative activities like fine arts, designing, animation, photography and movie making to name a few.
+\n * PROM: (Promotion, Relation, Occasion, Management) deals with all public relations and management of the various activities that take place in an IIT.
+\n * WAVES: (Writing, Awareness, Vocals, Entertainment and Social awareness) cell is responsible for conducting these events and more, providing several avenues for students to express their freedom and creativity
+\n * SAGE: ()Sports, Adventures, Games and Explorations) is the council which aims at the improvement of traditional sports education and configure a unique sports culture through various competitions, festivals, disciplines and social integration programs"
+        android:textColor="#000000"
+        
+        android:textStyle="bold" />
+       
+   </ScrollView> 
+
+     
+ 
+</LinearLayout>

@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#f8f9fe"
+    tools:context=".StudentDetailsActivity" >
+    
+     <include layout="@layout/actionbar_layout" />
+    
+     
+         
+     <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:paddingTop="7dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Search text can be name or surname or roll no. or branch or mobile no."
+        android:textColor="#000000"
+        android:textSize="10dp" /> 
+        
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        android:layout_toLeftOf="@+id/btn"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:hint="Enter your search text" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Search" />
+    
+    
+    <TextView
+         android:id="@+id/textView7"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_marginTop="60dp"
+         android:gravity="center_horizontal"
+         android:text="IITJ Student Details"
+         android:textColor="#000000"
+         android:textSize="25dp" 
+         android:textStyle="bold"/>"
+         
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#013057"
+        android:textSize="20dp" /> 
+        
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="#cac9c9"
+        android:textSize="10dp" />    
+
+    <ListView
+        android:id="@+id/listview"
+        style="@style/AppTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="50dp"
+        
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector">
+    </ListView>
+    
+    <include layout="@layout/footer_layout" />
+
+</RelativeLayout>

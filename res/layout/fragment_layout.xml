@@ -1,0 +1,49 @@
+<com.example.studentdetail.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  College Button -->
+    <Button
+        android:id="@+id/btn_college"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/college"
+        android:text="About IITJ" />
+     
+    <!--  Calendar Button -->
+    <Button
+        android:id="@+id/btn_calendar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/calendar"
+        android:text="Tentative Calendar" />
+     
+    <!--  Students Button -->
+    <Button
+        android:id="@+id/btn_students"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/students"
+        android:text="Student Corner" />
+     
+    <!--  Counselling Button -->
+    <Button
+        android:id="@+id/btn_counselling"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/counselling"
+        android:text="Counselling Service" />
+ 
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_places"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/places"
+        android:text="Places in Jodhpur" />
+ 
+    <!--  About Button -->
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/about"
+        android:text="Info" />
+ 
+</com.example.studentdetail.DashboardLayout>

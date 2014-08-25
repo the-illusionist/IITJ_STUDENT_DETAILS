@@ -1,0 +1,96 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#f8f9fe"
+    android:gravity="center_horizontal" >
+ 
+   
+    <include
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/actionbar_layout" />
+    
+    
+        
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_marginTop="60dp"
+         android:gravity="center_horizontal"
+         android:text="Counselling Service"
+         android:textColor="#000000"
+         android:textSize="25dp" 
+         android:textStyle="bold"/>"
+     
+   <TextView
+       android:id="@+id/textView9"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/textView3"
+       android:gravity="center_horizontal"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:text="The Counselling Service is devoted to provide personal guidance and necessary resources to students to deal with all the challenges. The team tries to ensure that IITJ is not just an institute, but a home away from home for you. You can always contact anyone from the counselling team whenever you need any help."
+       android:textColor="#000000"
+        />
+    
+   
+   
+
+        <!-- Spinner Element -->
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            
+            android:layout_alignParentLeft="true"
+      		
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+           android:layout_toLeftOf="@+id/btn"
+            android:prompt="@string/spinner_title" />
+         
+       
+        
+        <ListView
+            android:id="@+id/listview"
+            style="@style/AppTheme"
+  	  	    android:layout_width="fill_parent"
+ 	        android:layout_height="wrap_content"
+  	        android:divider="#b5b5b5"
+  	        android:dividerHeight="1dp"
+    	    android:listSelector="@drawable/list_selector"
+            
+            android:layout_below="@+id/spinner"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="50dp"
+             >
+
+    </ListView>
+
+        
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spinner"
+            android:layout_alignRight="@+id/listview"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Search" />
+      
+        <include layout="@layout/footer_layout" />
+        
+</RelativeLayout>

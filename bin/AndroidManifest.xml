@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentdetail"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        >
+        
+        <!-- Splash screen -->
+        <activity
+            android:name="SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+            
+   
+        <!-- Dashboard Activity -->
+        <activity
+             android:name=".MainDashboardActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+        <!-- News Feed Activity -->
+        <activity 
+            android:name=".CalendarActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+        <!-- News Feed Activity -->
+        <activity 
+            android:name=".HolidayActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+ 
+        <!-- Friends Activity -->
+        <activity
+             android:name=".CollegeActivity" 
+             android:screenOrientation="portrait"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             ></activity>
+ 
+        <!-- Messages Activity -->
+        <activity 
+            android:name=".CounsellingActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+ 
+        <!-- Places Activity -->
+        <activity 
+            android:name=".PlacesActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+ 
+        <!-- Events Activity -->
+        <activity 
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             ></activity>
+        
+        <!-- Friends Activity -->
+        <activity
+             android:name=".StudentGymkhanaDetailsActivity" 
+             android:screenOrientation="portrait"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             ></activity>
+ 
+        <!-- Messages Activity -->
+        <activity 
+            android:name=".ImportantContactsActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+ 
+        <!-- Places Activity -->
+        <activity 
+            android:name=".BusScheduleActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+ 
+        <!-- Events Activity -->
+        <activity 
+            android:name=".UpcomingEventsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             ></activity>
+        
+         <!--  studentdetails  -->
+        <activity
+            android:name=".StudentDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             >
+        </activity>
+        
+         <!-- view screen  -->
+        <activity
+            android:name=".View_Screen"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity>
+        
+        <!-- view places  -->
+        <activity
+            android:name=".View_Places"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity>
+        
+        <!--  studentdetails  -->
+        <activity
+            android:name=".StudentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             >
+        </activity>
+        
+         <!-- view screen student gymkhana  -->
+        <activity
+            android:name=".View_Screen_Gymkhana"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity>
+        
+        <!-- view screen counselling  -->
+        <activity
+            android:name=".View_Screen_Counselling"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity>
+        
+    </application>
+
+</manifest>

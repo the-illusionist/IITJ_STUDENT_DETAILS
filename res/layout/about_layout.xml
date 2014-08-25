@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9fe"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+ 
+    <include layout="@layout/actionbar_layout" />
+ 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="#013057"
+        android:text="Developed by:"
+        android:textSize="25dp" />
+
+    
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="17dip"
+        android:text="Abhishek Kumar"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="7dip"
+        android:text="B.Tech(CSE 3rd Year)"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="7dip"
+        android:text="Contact: +91-8441962964"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="7dip"
+        android:text="Email id: ug201210001@iitj.ac.in"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+    <include layout="@layout/footer_layout" />
+ 
+
+</RelativeLayout>
+</RelativeLayout>
